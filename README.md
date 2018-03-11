@@ -5,17 +5,17 @@ Stickify was developed as a way to position content elements in a sidebar in a w
 2)
 
 Options
-animatedHeader - default: false, set to true if your header changes height when the user scrolls down the page
-content - default: '#content', div in which the articles and sidebar live
-heightAnimations - default: false, set to true if your site has other height altering animations
-minScreenSize - default: 1008, min screen size in which you want the stickify plugin to turn on
-stickyContainer - default: '.ads', div with sticky adds that will be divided evenly
-stickyHeader - default: false, set to true if your site uses a fixed header
-stickyItems - default: '.ad', sticky ad class
-stickyInternalClass - default: 'internal', sticky ad internal container class
-stickyPaddingTop - default: 30, pixel amount of sticky ad padding from top
-stickyPaddingBottom - default: 30, pixel amount of sticky ad padding from bottom
-topTransitionSpeed - default: 0, CSS3 top transition speed when sticking
-onAdFix - callback function when ad fixes to top
-onAdEnd - callback function when ad stops sticking
-onAdReset - callback function when ad gets set back to static as user scrolls up
+* animatedHeader - default: false, set to true if your header changes height when the user scrolls down the page
+* content - default: '#content', div in which the articles and sidebar live
+* heightAnimations - default: false, set to true if your site has other height altering animations
+* minScreenSize - default: 1008, min screen size in which you want the stickify plugin to turn on
+* stickyContainer - default: '.ads', div with sticky adds that will be divided evenly
+* stickyHeader - default: false, set to true if your site uses a fixed header
+* stickyItems - default: '.ad', sticky ad class
+* stickyInternalClass - default: 'internal', sticky ad internal container class
+* stickyPaddingTop - default: 30, pixel amount of sticky ad padding from top
+* stickyPaddingBottom - default: 30, pixel amount of sticky ad padding from bottom
+* topTransitionSpeed - default: 0, CSS3 top transition speed when sticking
+* onAdFix - callback function when ad fixes to top
+* onAdEnd - callback function when ad stops sticking
+* onAdReset - callback function when ad gets set back to static as user scrolls up
